@@ -1,0 +1,298 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 0.9rem;
+    padding:10px;
+    font-family: Inconsolata;
+    
+
+}
+header,
+footer {
+  color: rgba(245, 245, 239,1);
+  background:hsla(209, 60%, 42%, 0.7);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px;
+  line-height: 1.5;
+}
+.section-title {
+    font-weight:700;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-family: Karla;
+    letter-spacing: 1px;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    
+    color:white;
+}
+  
+#menu li {
+    display: inline-block;
+    margin:10px;
+    font-size: 0.7rem;
+    margin:10px;
+    
+
+}
+  
+#menu li a {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.course{
+    padding:25px 10px;
+    box-shadow: 0px 0px 5px 3px rgba(128, 128, 128, 0.25);
+    margin:20px auto;
+
+}
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    font-size: 42px;
+  }
+  
+  #box-1 {
+    background-color: rgb(116, 226, 116);
+  }
+  #box-2 {
+    background-color: yellow;
+  }
+  #box-3 {
+    background-color: rgb(231, 118, 118);
+  }
+  
+  hr {
+    height: 2px;
+    margin-top: 10px;
+    padding-top:5px;
+    background-color: rgba(165, 111, 182, 0.75);
+  }
+  
+.form-group {
+    margin:10px auto;
+  }
+  input[type='text'],
+  input[type='date'],
+  input[type='email'], textarea, select {
+  display: block;
+  padding:8px;
+  width:60%;
+  border-radius: 3px;
+  border:2px solid rgba(203, 93, 93, 0.25);
+  margin-top:3px;
+  }
+  input[type='text']:hover,
+  input[type='date']:hover,
+  input[type='email']:hover,
+  textarea:hover,
+  select:hover {
+   
+    border: 2px solid rgba(203, 93, 93, 1);
+  
+  }
+  .btn{
+    padding:10px 25px;
+    background:rgb(69, 204, 69);
+    color:white;
+    border: 2px solid rgb(69, 204, 69);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+  }
+table {
+    width:100%;
+    margin-top: 15px;
+    
+  }
+table,
+td,
+th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    border:1px solid;
+  }  
+td {
+    padding-left: 10px;
+  }
+th {
+    color:white;
+    background-color: rgba(95, 163, 226,0.7);
+    padding:10px;
+}  
+.fa-github-square {
+    font-size: 32px;
+    color: #333;
+    margin:10px
+  }
+  .fa-linkedin {
+    color: #0077b5;
+    font-size: 32px;
+    margin:10px
+  }
+  .fa-twitter-square {
+    color: #1da1f2;
+    font-size: 32px;
+    margin:10px;
+  }
+
+.foot-wrapper{
+    background-color: rgba(95, 163, 226,0.7);
+    height:100px;
+    padding-top: 40px;
+    bottom:0;
+    text-align:center;
+    width:100%;
+    font-size: 1.2rem;
+    
+}
+@media (max-width: 768px) {
+    header,
+    footer {
+      padding: 10px;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-weight: 900;
+      /* font-family: Poppins; */
+    }
+    #title {
+      font-size: 28px;
+    }
+    #menu {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      /* background-color: rgba(221, 204, 204, 0.25); */
+    }
+    #menu li {
+      width: 150px;
+      display: block;
+      margin: 5px;
+    }
+  
+    li a {
+      padding: 2px;
+      font-size: 0.75rem;
+    }
+  
+    .contact-form {
+      width: 100%;
+      padding: 3px;
+    }
+    .form-group {
+      /* top, right, bottom, left */
+      margin: 0 0 3px 0px;
+    }
+    .contact-form {
+        width: 40%;
+        padding: 15px;
+      }
+      .form-group {
+        margin: 10px auto;
+      }
+      
+      input[type='text'],
+      input[type='email'],
+      input[type='number'],
+      input[type='datetime-local'],
+      select,
+      textarea {
+        display: block;
+        margin-bottom: 3px;
+
+        padding: 8px;
+        border: 2px solid rgb(226, 206, 238);
+        outline: none;
+        border-radius: 3px;
+        width: 60%;
+        border-radius: 5px;
+        border: 2px solid rgba(191, 179, 245, 0.5);
+        outline: none;
+      }
+      input[type='text']:hover,
+      input[type='email']:hover,
+      input[type='number']:hover,
+      input[type='datetime-local']:hover,
+      textarea:hover {
+        border: 2px solid rgb(193, 115, 238);
+      }
+      
+      input[type='submit'] {
+        background-color: hsl(120, 60%, 50%);
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        padding: 10px 30px;
+        margin-top: 15px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+      input[type='submit']:hover {
+        background-color: hsl(120, 78%, 40%);
+      }
+      .category {
+        width: 75%;
+        margin: auto;
+      }
+      .form-section {
+        margin-bottom: 30px;
+      }
+      
+      #file-input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+      }
+      label[for='file-input'] {
+        font-size: 1.25em;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(193, 115, 238);
+        display: inline-block;
+        padding: 5px 25px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px 0;
+      }
+      label[for='file-input']:hover {
+        background-color: rgb(138, 42, 194);
+      }
+      ::placeholder {
+        color: rgb(199, 193, 193);
+      }
+      .fa-upload {
+        font-size: 25px;
+        margin: 5px;
+      }
+    table {
+      overflow: scroll;
+      overflow-x: auto;
+    }
+  }
